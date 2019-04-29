@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TamagochiWork1.Views.Profile"
+             Title="Профиль">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <!--<Label Text="LVL" HorizontalOptions="Start" x:Name = "lvl" Margin="10, 0, 0, 0"/>
+                <Label Text="HP" HorizontalOptions="Start" x:Name = "hp" Margin="10, 0, 0, 0"/>
+                <Label Text="Авторитет" HorizontalOptions="Start" x:Name = "resp" Margin="10, 0, 0, 0"/>
+                <Label Text="Сила" HorizontalOptions="Start" x:Name = "sila" Margin="10, 0, 0, 0"/>
+                <Label Text="Ловкость" HorizontalOptions="Start" x:Name = "lovkost" Margin="10, 0, 0, 0"/>
+                <Label Text="Интелект" HorizontalOptions="Start" x:Name = "intelect" Margin="10, 0, 0, 0"/>
+                <Label Text="Харизма" HorizontalOptions="Start" x:Name = "char" Margin="10, 0, 0, 0"/>-->
+                <Button Text="Доступно очков" HorizontalOptions="Start" x:Name = "ochko1" Margin="10, 0, 0, 0" Clicked="exp1" WidthRequest="150"/>
+
+                <Button Text="LVL" HorizontalOptions="Start" x:Name = "lvl1" Margin="10, 0, 0, 0" Clicked="lvl" WidthRequest="150"/>
+                
+
+                <Button Text="HP" HorizontalOptions="Start" x:Name = "hp" Margin="10, 0, 0, 0" Clicked="hp1" WidthRequest="150"/>
+                <Button Text="+" HorizontalOptions="Start" x:Name = "hpP1" Margin="10, 0, 0, 0" Clicked="hpP" IsVisible="False"/>
+
+                <!--<Button Text="Авторитет" HorizontalOptions="Start" x:Name = "resp1" Margin="10, 0, 0, 0" Clicked="resp" WidthRequest="150"/>
+                <Button Text="+" HorizontalOptions="Start" x:Name = "respP1" Margin="10, 0, 0, 0" Clicked="respP" IsVisible="False"/>
+                <Button Text="-" HorizontalOptions="Start" x:Name = "respL1" Margin="10, 0, 0, 0" Clicked="respL" IsVisible="False"/>>-->
+
+                <Button Text="Сила" HorizontalOptions="Start" x:Name = "sila1" Margin="10, 0, 0, 0" Clicked="sila" WidthRequest="150"/>
+                <Button Text="+" HorizontalOptions="Start" x:Name = "silaP1" Margin="10, 0, 0, 0" Clicked="silaP" IsVisible="False"/>
+
+                <Button Text="Ловкость" HorizontalOptions="Start" x:Name = "lovkost1" Margin="10, 0, 0, 0" Clicked="lovkost" WidthRequest="150"/>
+                <Button Text="+" HorizontalOptions="Start" x:Name = "lovkostP1" Margin="10, 0, 0, 0" Clicked="lovkostP" IsVisible="False"/>
+
+                <Button Text="Интелект" HorizontalOptions="Start" x:Name = "intelect1" Margin="10, 0, 0, 0" Clicked="intelect" WidthRequest="150"/>
+                <Button Text="+" HorizontalOptions="Start" x:Name = "intelectP1" Margin="10, 0, 0, 0" Clicked="intelectP" IsVisible="False"/>
+
+                <Button Text="В бой" HorizontalOptions="Start"  Margin="10, 0, 0, 0" Clicked="BOI" IsVisible="True" x:Name = "B"/>
+
+                <!--<Button Text="Харизма" HorizontalOptions="Start" x:Name = "charr" Margin="10, 0, 0, 0" Clicked="char1" WidthRequest="150"/>
+                <Button Text="+" HorizontalOptions="Start" x:Name = "charP1" Margin="10, 0, 0, 0" Clicked="charP" IsVisible="False"/>
+                <Button Text="-" HorizontalOptions="Start" x:Name = "charL1" Margin="10, 0, 0, 0" Clicked="charL" IsVisible="False"/>-->
+                <Label x:Name = "Ye" Text="Я" IsVisible="False"/>
+                <Image Source="PIC.png" x:Name = "PIC" IsVisible="False"/>
+
+                <Button Text="Ударить" HorizontalOptions="Start"  Margin="10, 0, 0, 0" Clicked="udar" IsVisible="False" x:Name = "U"/>
+                <Button Text="Подождать" HorizontalOptions="Start"  Margin="10, 0, 0, 0" Clicked="gd" IsVisible="False" x:Name = "P"/>
+                <Button Text="Полечиться" HorizontalOptions="Start"  Margin="10, 0, 0, 0" Clicked="xil" IsVisible="False" x:Name = "PP"/>
+                
+                <Label x:Name = "Vrag" Text="Враг" IsVisible="False"/>
+                <Image Source="Slow.png" x:Name = "SLOW" IsVisible="False"/>
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

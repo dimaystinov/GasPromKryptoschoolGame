@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TamagochiWork1.Views.Team"
+             Title="Команда">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout Padding="15" x:Name = "Butt">
+                    <Button                       
+                        Text="Профиль №1"
+                        WidthRequest="300"
+                        HeightRequest="150"
+                        Clicked="T1"/>
+                    <Button 
+                        Text="Профиль №2"
+                        WidthRequest="300"
+                        HeightRequest="150"
+                        Clicked="T2"/>
+                    <Button                      
+                        Text="Профиль №3"
+                        WidthRequest="300"
+                        HeightRequest="150"
+                        Clicked="T3"/>
+
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

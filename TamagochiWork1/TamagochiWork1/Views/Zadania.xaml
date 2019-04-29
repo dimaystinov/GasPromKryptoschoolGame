@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TamagochiWork1.Views.Zadania"
+             Title="Задания">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout Padding="15" x:Name = "Butt" IsVisible="True">
+                    <Button 
+                        Text="Работа №1     Завершить"
+                        WidthRequest="300"
+                        HeightRequest="150"
+                        Clicked="R1"
+                        IsVisible="True"/>
+                    <Button
+                        Text="Работа №2     Завершить"
+                        WidthRequest="300"
+                        HeightRequest="150" 
+                         Clicked="R1"
+                        IsVisible="True"/>
+                    <Button
+                        Text="Работа №3     Завершить"
+                        WidthRequest="300"
+                        HeightRequest="150"
+                         Clicked="R1"
+                        IsVisible="True"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
